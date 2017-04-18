@@ -5,3 +5,29 @@
 	padding-left: 14px;
 	padding-right: 14px;
 }
+
+#contenido .img-box{
+	width: 200px;
+	display: inline-block;
+	position: relative;
+	margin-right: 10px;
+	border: 1px solid black;
+}
+
+#contenido .img-box img{
+	max-width: 100%;
+	float: left;
+}
+
+#contenido .img-box span{
+	float: left;
+	position: absolute;
+	left: 10px;
+	color: white;
+	top: 10px;
+	font-family: sans-serif;
+}
+
+#contenido .img-box.deleted{
+	display: none;
+}
