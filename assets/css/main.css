@@ -8,22 +8,30 @@ body{
 }
 
 .container {
-	width: 1200px;
 	height: 50px;
 	padding-left: 100px;
 	background-color: #ca3c25;
 }
 
 .container a{
-	margin-right: 20px;
-	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.nav{
+	padding: 0 100px;
 }
 
 .nav a {
 	background-color: #ca3c25;
 	display: inline-block;
 	border: 1px solid black;
-	width: 200px;
+	width: 300px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#contenido{
+	padding: 20px 120px 30px;
 }
 
 #contenido .img-box{
@@ -31,7 +39,7 @@ body{
 	display: inline-block;
 	position: relative;
 	margin-right: 10px;
-	border: 1px solid black;
+	border: 5px solid #6E6E6E;
 }
 
 #contenido .img-box img{
@@ -50,4 +58,19 @@ body{
 
 #contenido .img-box.deleted{
 	display: none;
+}
+
+.content {
+	padding: 30px 30px;
+	text-align: justify;
+}
+
+.left{
+	float: left;
+	width: 50%;
+}
+
+.right{
+	float: right;
+	width: 50%;
 }
