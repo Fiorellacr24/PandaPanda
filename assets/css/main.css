@@ -1,37 +1,46 @@
 *{
 	font-family: sans-serif;
-	color: white;
+	color: #E7BD4C;
 }
 
 body{
 	background-color: #1d1a05;
 }
 
-.container {
-	height: 50px;
-	padding-left: 100px;
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
 	background-color: #ca3c25;
+	height: 70px;
+	width: 100%;
+}
+
+.container {
+	margin-left: 100px;
+	padding: 20px 0px;
 }
 
 .container a{
-	padding: 20px;
+	padding: 0px 20px;
 }
 
 .nav{
-	padding: 0 100px;
+	padding: 0px 100px;
 }
 
 .nav a {
 	background-color: #ca3c25;
 	display: inline-block;
-	border: 1px solid black;
+	border: 1px solid #E7BD4C;
 	width: 300px;
 	text-decoration: none;
 	text-align: center;
 }
 
 #contenido{
-	padding: 20px 120px 30px;
+	margin: 70px;
+	padding: 20px 120px 0px;
 }
 
 #contenido .img-box{

@@ -26,8 +26,12 @@ window.addEventListener('load',function(event){
 		});
 	}
 
-	var restaurar = document.getElementsByClassName('restore');
-	
-
+	var restaurar = document.getElementById('restore');
+	restaurar.addEventListener('click', function(event){
+		var eliminados = document.getElementsByClassName('deleted');
+		for (var i = eliminados.length - 1; i >= 0; i--) {
+			eliminados[i].setAttribute('class', 'img-box');
+		}
+	});
 
 });
