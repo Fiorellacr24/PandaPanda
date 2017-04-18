@@ -27,7 +27,7 @@ window.addEventListener('load',function(event){
 	}
 
 	var restaurar = document.getElementsByClassName('restore');
-
+	
 
 
 });
